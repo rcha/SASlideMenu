@@ -21,8 +21,8 @@
     [source.slideMenuDataSource configureMenuButton:menuButton];
     [menuButton addTarget:source action:@selector(doSlideToSide) forControlEvents:UIControlEventTouchUpInside];
     
-    UINavigationItem* navigationItem = destination.navigationBar.topItem;
-    navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:menuButton];
+//    UINavigationItem* navigationItem = destination.navigationBar.topItem;
+//    navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:menuButton];
 
     Boolean hasRightMenu = NO;
     if ([source.slideMenuDataSource respondsToSelector:@selector(hasRightMenuForIndexPath:)]) {

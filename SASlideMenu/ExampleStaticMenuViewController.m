@@ -9,7 +9,6 @@
 //
 #import <QuartzCore/QuartzCore.h>
 #import "ExampleStaticMenuViewController.h"
-#import "MenuCell.h"
 #import "DarkViewController.h"
 
 @interface ExampleStaticMenuViewController ()
