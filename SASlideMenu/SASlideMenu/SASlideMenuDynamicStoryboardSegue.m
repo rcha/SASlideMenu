@@ -34,8 +34,8 @@
             [source.slideMenuDataSource configureRightMenuButton:rightMenuButton];
             [rightMenuButton addTarget:source action:@selector(rightMenuAction) forControlEvents:UIControlEventTouchUpInside];
             
-            UINavigationItem* navigationItem = destination.navigationBar.topItem;
-            navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rightMenuButton];
+//            UINavigationItem* navigationItem = destination.navigationBar.topItem;
+//            navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rightMenuButton];
         }
         
     }
